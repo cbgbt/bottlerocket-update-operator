@@ -3,7 +3,7 @@ entries:
   bottlerocket-shadow:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-20T00:30:59.713023498Z"
+    created: "2023-08-11T18:32:51.013072033Z"
     description: A Helm chart for the Bottlerocket shadow CRD used by the Bottlerocket
       update operator
     digest: 1be8e7c14577f3eda75642ede46adfc52a12d289e2f1d4bc19a2673b8f80fc42
@@ -14,12 +14,26 @@ entries:
     - https://github.com/bottlerocket-os/bottlerocket-update-operator
     type: application
     urls:
-    - https://bottlerocket-os.github.io/bottlerocket-update-operator/bottlerocket-shadow-1.0.0.tgz
+    - https://cbgbt.github.io/bottlerocket-update-operator/bottlerocket-shadow-1.0.0.tgz
     version: 1.0.0
   bottlerocket-update-operator:
   - apiVersion: v2
+    appVersion: 1.3.0
+    created: "2023-08-11T18:32:51.015808781Z"
+    description: A Helm chart for the Bottlerocket Update Operator
+    digest: 88a8d834cb721482bc3f4fb3a2f2f656ac59d33bef35c28debeb63b080f1f240
+    home: https://github.com/bottlerocket-os/bottlerocket-update-operator
+    icon: https://avatars.githubusercontent.com/u/61023959?s=200&v=4
+    name: bottlerocket-update-operator
+    sources:
+    - https://github.com/bottlerocket-os/bottlerocket-update-operator
+    type: application
+    urls:
+    - https://cbgbt.github.io/bottlerocket-update-operator/bottlerocket-update-operator-1.3.0.tgz
+    version: 1.3.0
+  - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-20T00:30:59.713711078Z"
+    created: "2023-08-11T18:32:51.01403835Z"
     description: A Helm chart for the Bottlerocket Update Operator
     digest: 78a0f1f54e140c26d1f3292cc54eaead19d3cb6774eefc159a4d6c2dc42de56a
     home: https://github.com/bottlerocket-os/bottlerocket-update-operator
@@ -29,6 +43,6 @@ entries:
     - https://github.com/bottlerocket-os/bottlerocket-update-operator
     type: application
     urls:
-    - https://bottlerocket-os.github.io/bottlerocket-update-operator/bottlerocket-update-operator-1.0.0.tgz
+    - https://cbgbt.github.io/bottlerocket-update-operator/bottlerocket-update-operator-1.0.0.tgz
     version: 1.0.0
-generated: "2023-07-20T00:30:59.712478067Z"
+generated: "2023-08-11T18:32:51.01172781Z"
